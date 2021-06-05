@@ -70,7 +70,7 @@ export default {
         headers: this.setToken(),
       })
       .then((res) => {
-        // console.log(res)
+
         if (res.data.message) {
           alert("본인만 수정 가능")
         }
